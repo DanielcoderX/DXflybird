@@ -105,4 +105,6 @@ img.onload = render;
 
 // start game
 document.addEventListener('keydown', () => gamePlaying = true);
+document.addEventListener('ontouchstart', () => gamePlaying = true);
 window.onkeydown = () => flight = jump;
+windows.ontouchstart = () => flight = jump;
