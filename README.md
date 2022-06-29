@@ -1,5 +1,4 @@
 # DXflybird
-DXflybird(DX like Deax) Flappy bird
 
 Nothing to do :)
 just have fun
