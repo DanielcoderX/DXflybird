@@ -105,6 +105,6 @@ img.onload = render;
 
 // start game
 // document.addEventListener('keydown', () => gamePlaying = true);
-document.addEventListener('touchstart', () => gamePlaying = true);
+document.addEventListener('orientationchange', () => gamePlaying = true);
 // window.onkeydown = () => flight = jump;
-window.ontouchstart = () => flight = jump;
+window.onorientationchange = () => flight = jump;
